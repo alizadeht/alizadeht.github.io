@@ -1,0 +1,185 @@
+        body {
+            background-color: #23252C;
+            font-family: 'Intel', sans-serif;
+        }
+        
+        .container {
+            width: 30%;
+            width: 550px;
+            height: 868px;
+            min-width: 350px;
+            margin: 53px auto;
+            background: #23252C;
+        }
+        
+        .card {
+            width: 90%;
+            width: 317px;
+            margin: 35px auto;
+            border: 1px solid #ababab;
+            border-radius: 10px;
+            background-color: #161619;
+        }
+        
+        .top {
+            width: 100%;
+            height: 230px;
+            background-image: url('images/turallondon.JPG');
+            background-size: cover;
+            background-position: center;
+            border-radius: 10px;
+            margin-bottom: 0;
+        }
+        
+        main {
+            margin: 0 auto;
+            background-color: #161619;
+        }
+        
+        .content {
+            width: 100%;
+            background-color: black;
+            padding-top: 21px;
+            padding-left: 15px;
+            padding-right: 15px;
+            padding-bottom: 21px;
+            box-sizing: border-box;
+        }
+        
+        .bio {
+            text-align: center;
+        }
+        
+        .bio>h1 {
+            font-weight: 600;
+            font-size: 25px;
+            color: #FFFFFF;
+            line-height: 30px;
+            margin-top: 0;
+            margin-bottom: 0;
+        }
+        
+        .bio>h3 {
+            font-weight: 400;
+            font-size: 13px;
+            color: #F3BF99;
+            line-height: 15.5px;
+            margin-top: 10px;
+            margin-bottom: 10px;
+        }
+        
+        .bio>p {
+            font-weight: 400;
+            font-size: 11px;
+            color: #F5F5F5;
+            line-height: 15px;
+        }
+        
+        .messenger {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+        }
+        
+        .messenger--link {
+            width: 120px;
+            height: 40px;
+            border-radius: 20px;
+            box-sizing: border-box;
+            display: inline-block;
+            flex-direction: row;
+            box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.05);
+            align-items: center;
+            justify-content: center;
+        }
+        
+        .messenger--link--icon {
+            margin-right: 5%;
+        }
+        
+        .messenger--link--text {
+            font-style: inherit;
+            font-weight: 500;
+            font-size: 14px;
+            line-height: 18px;
+        }
+        
+        .messenger--link:nth-child(1) {
+            background-color: white;
+            border: 1px solid #D1D5DB;
+            color: #374151;
+        }
+        
+        .messenger--link:nth-child(2) {
+            background-color: #5093E2;
+            border: 1px solid #3787e2;
+            color: #FFFFFF;
+        }
+        
+        .messenger--link:hover {
+            background-color: #575758;
+            border: 1px solid #e7e8ea;
+            color: #f7f8fa;
+        }
+        
+        .info {
+            padding: 20px 10px;
+        }
+        
+        .info--component>h2 {
+            font-weight: 600;
+            font-size: 16px;
+            font-style: normal;
+            line-height: 24px;
+            color: #F5F5F5;
+        }
+        
+        .info--component>p {
+            font-weight: 400;
+            font-size: 12px;
+            font-style: normal;
+            line-height: 15px;
+            color: #DCDCDC;
+        }
+        
+        footer {
+            margin-bottom: 10px;
+        }
+        
+        .social-links {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+            width: 70%;
+            margin: auto;
+        }
+        
+        ul {
+            list-style-type: none;
+            padding: 0;
+            overflow: hidden;
+            text-align: center;
+            position: center;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        
+        li {
+            float: left;
+            position: center;
+            border: 0.5px solid #bbb;
+        }
+        
+        li a {
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+        
+        li a:hover {
+            background-color: white;
+            color: grey;
+        }

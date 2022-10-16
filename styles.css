@@ -1,0 +1,158 @@
+body {
+    font-family: "Inconsolata, monospace";
+    font-weight: 400;
+    width: 70%;
+    margin: auto;
+    align-items: center;
+    text-align: center;
+}
+
+ol {
+    list-style-type: none;
+}
+
+p {
+    color: black;
+    text-align: center;
+    font-style: Arial;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 150;
+}
+
+h1 {
+    font-family: "Rubik Dirt', cursive" font-weight 150;
+    text-align: center;
+}
+
+.italic-text {
+    font-style: italic;
+    font-family: "Lucida Sans, Lucida Sans Regular"
+}
+
+#single-p {
+    color: blueviolet;
+}
+
+img {
+    border-radius: 50%;
+    height: 200px;
+    width: 200px;
+    align-items: center;
+}
+
+hr {
+    border-top: 1px dashed red;
+}
+
+table,
+th,
+td {
+    border: 3px solid;
+    border-collapse: collapse;
+    align-items: center;
+}
+
+* {
+    background-color: whitesmoke;
+}
+
+table {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+img:hover {
+    height: 220px;
+    width: 220px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    overflow: hidden;
+    text-align: center;
+    position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+li {
+    float: left;
+    position: center;
+    border: 0.5px solid #bbb;
+}
+
+li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: grey;
+    color: white;
+}
+
+.active {
+    background-color: #04AA6D;
+}
+
+.gallery {
+    margin: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+div.gallery:hover {
+    border: 0.5px solid #777;
+}
+
+div.gallery {
+    width: 90%;
+    height: auto;
+}
+
+div.desc {
+    padding: 15px;
+    text-align: center;
+    position: center;
+    float: center;
+}
+
+input[type=text],
+select,
+textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid black;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical
+}
+
+input[type=submit] {
+    background-color: red;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: green;
+}
+
+.container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+}
