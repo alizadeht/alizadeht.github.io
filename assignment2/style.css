@@ -49,6 +49,28 @@ input.search-bar {
     font-size: 100%;
 }
 
+input.lon {
+    border: none;
+    outline: none;
+    padding: 0.5em 1em;
+    border-radius: 30px;
+    background: #7c7c7c2b;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 100%;
+}
+
+input.lat {
+    border: none;
+    outline: none;
+    padding: 0.5em 1em;
+    border-radius: 30px;
+    background: #7c7c7c2b;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 100%;
+}
+
 button:hover {
     background: #7c7c7c6b;
 }
