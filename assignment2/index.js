@@ -54,10 +54,6 @@ let weather = {
             "Wind speed: " + Math.floor((speed) * (5 / 18)) + " m/s";
         document.querySelector(".deg").innerText =
             "Wind degree: " + deg + "°";
-        document.querySelector(".lat").innerText =
-            "Latitude: " + lat;
-        document.querySelector(".lon").innerText =
-            "Longitude: " + lon;
         if (deg <= 90) {
             document.querySelector(".direction").innerText =
                 "Wind direction => East ";
@@ -71,6 +67,11 @@ let weather = {
             document.querySelector(".direction").innerText =
                 "Wind direction => North ";
         }
+        document.querySelector(".lat").innerText =
+            "Latitude: " + lat;
+        document.querySelector(".lon").innerText =
+            "Longitude: " + lon;
+
 
         document.querySelector(".weather").classList.remove("loading");
         document.body.style.backgroundImage =
@@ -120,10 +121,6 @@ let weather2 = {
             "Wind speed: " + Math.floor((speed) * (5 / 18)) + " m/s";
         document.querySelector(".deg").innerText =
             "Wind degree: " + deg + "°";
-        document.querySelector(".lat").innerText =
-            "Latitude: " + lat;
-        document.querySelector(".lon").innerText =
-            "Longitude: " + lon;
         if (deg <= 90) {
             document.querySelector(".direction").innerText =
                 "Wind direction => East ";
@@ -137,6 +134,10 @@ let weather2 = {
             document.querySelector(".direction").innerText =
                 "Wind direction => North ";
         }
+        document.querySelector(".lat").innerText =
+            "Latitude: " + lat;
+        document.querySelector(".lon").innerText =
+            "Longitude: " + lon;
 
 
         document.querySelector(".weather").classList.remove("loading");
