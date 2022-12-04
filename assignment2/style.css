@@ -49,7 +49,7 @@ input.search-bar {
     font-size: 100%;
 }
 
-input.lon {
+input.long {
     border: none;
     outline: none;
     padding: 0.5em 1em;
@@ -60,7 +60,7 @@ input.lon {
     font-size: 100%;
 }
 
-input.lat {
+input.lati {
     border: none;
     outline: none;
     padding: 0.5em 1em;
